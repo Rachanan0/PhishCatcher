@@ -1,28 +1,34 @@
 # 🛡️ PhishCatcher
+### AI-Driven Client-Side Defense Against Phishing and Web Spoofing Attacks
 
-An AI-powered phishing website detection system that classifies URLs as **Legitimate** or **Phishing** using Machine Learning. The application provides a simple web interface built with Flask for real-time URL analysis.
+PhishCatcher is a machine learning-based phishing detection system that identifies malicious URLs in real time before users disclose sensitive information. The project combines multiple ML models with a Flask web application to provide fast and accurate phishing detection.
+
+---
 
 ## 🚀 Features
 
-- Detects phishing URLs using Machine Learning
-- User authentication (Sign Up / Login)
-- Real-time URL prediction
-- Interactive Flask web interface
-- SQLite database for user management
-- High accuracy using ensemble ML models
+- 🔒 Real-time phishing URL detection
+- 🤖 Machine Learning-based prediction
+- 👤 User Login & Signup
+- 🗄️ SQLite Database Integration
+- 🌐 Flask Web Application
+- 📊 Multiple ML models comparison
+- ⚡ Fast URL classification
 
-## 🛠 Technologies Used
+---
 
-- Python
-- Flask
-- SQLite
-- Scikit-learn
-- Pandas
-- NumPy
-- HTML
-- CSS
-- JavaScript
-- Bootstrap
+## 🛠️ Technologies Used
+
+| Category | Technologies |
+|----------|--------------|
+| Programming | Python |
+| Framework | Flask |
+| Database | SQLite |
+| ML Libraries | Scikit-learn, XGBoost, Pandas, NumPy |
+| Frontend | HTML, CSS, Bootstrap, JavaScript |
+| Version Control | Git & GitHub |
+
+---
 
 ## 🤖 Machine Learning Models
 
@@ -31,20 +37,27 @@ An AI-powered phishing website detection system that classifies URLs as **Legiti
 - XGBoost
 - Stacking Classifier
 
+The Stacking Classifier achieved the best overall performance.
+
+---
+
 ## 📂 Project Structure
 
 ```
-PhishCatcher/
+PhishCatcher
 │
 ├── app.py
 ├── feature.py
 ├── requirements.txt
-├── signup.db
+├── README.md
 ├── data/
-├── templates/
 ├── static/
-└── README.md
+├── templates/
+├── screenshots/
+└── models/
 ```
+
+---
 
 ## ⚙️ Installation
 
@@ -54,7 +67,7 @@ Clone the repository
 git clone https://github.com/Rachanan0/PhishCatcher.git
 ```
 
-Move into the project directory
+Move into the project folder
 
 ```bash
 cd PhishCatcher
@@ -72,38 +85,89 @@ Run the application
 python app.py
 ```
 
-Open your browser
+Open
 
 ```
 http://127.0.0.1:5000
 ```
 
-## 📸 Screenshots
+---
 
-Add screenshots here.
+## 📸 Screenshots
 
 ### Home Page
 
-![Home](screenshots/home.png)
+(Add Screenshot)
+
+---
+
+### Login Page
+
+(Add Screenshot)
+
+---
+
+### URL Prediction
+
+(Add Screenshot)
+
+---
 
 ### Prediction Result
 
-![Result](screenshots/result.png)
+(Add Screenshot)
 
-### Login
+---
 
-![Login](screenshots/login.png)
+## 📊 Workflow
 
-## 📈 Future Improvements
+```
+User URL
+     │
+     ▼
+Feature Extraction
+     │
+     ▼
+Machine Learning Models
+(Random Forest | SVM | XGBoost | Stacking)
+     │
+     ▼
+Prediction
+     │
+     ▼
+Legitimate / Phishing
+```
+
+---
+
+## 📈 Results
+
+- High phishing detection accuracy
+- Low false positives
+- Real-time prediction
+- User-friendly web interface
+- Scalable architecture
+
+---
+
+## 🔮 Future Improvements
 
 - Chrome Extension
-- Live URL scanning
-- VirusTotal Integration
-- Threat Intelligence APIs
+- VirusTotal API Integration
+- WHOIS Lookup
+- Threat Intelligence Integration
 - Explainable AI (XAI)
+- Deep Learning Models
+
+---
 
 ## 👩‍💻 Author
 
 **Nunemunthala Rachana**
 
+Cybersecurity Engineer | SOC Analyst
+
 GitHub: https://github.com/Rachanan0
+
+LinkedIn: https://www.linkedin.com/in/rachana01/
+
